@@ -13,16 +13,17 @@
       <audio id="Ghost" src="Ghost whispers.mp3"></audio>
       <img id="Grass" src="Grass.jpg">
       <img id="Sky" src="Forest.png">
-      <a-asset-item id="stone-mtl" src="https://cdn.rawgit.com/Beando/HalloweenVR/master/House/medieval-house-2.mtl"></a-asset-item>
-      <a-asset-item id="stone" src="https://cdn.rawgit.com/Beando/HalloweenVR/master/House/medieval-house-2.mtl"></a-asset-item>
-      <a-asset-item id="pumpkin-mtl" src="https://cdn.rawgit.com/Beando/HalloweenVR/master/House/medieval-house-2.mtl"></a-asset-item>
-      <a-asset-item id="pumpkin" src="https://cdn.rawgit.com/Beando/HalloweenVR/master/House/medieval-house-2.mtl"></a-asset-item>
+      <a-asset-item id="tree-mtl" src="https://cdn.rawgit.com/Beando/HalloweenVR/master/Tree/tree.mtl"></a-asset-item>
+      <a-asset-item id="tree" src="https://cdn.rawgit.com/Beando/HalloweenVR/master/Tree/tree.obj"></a-asset-item>
+      <a-asset-item id="pumpkin-mtl" src="https://cdn.rawgit.com/Beando/HalloweenVR/master/Pumpkin/Pumpkin.mtl"></a-asset-item>
+      <a-asset-item id="pumpkin" src="https://cdn.rawgit.com/Beando/HalloweenVR/master/Pumpkin/Pumpkin.obj"></a-asset-item>
       <a-asset-item id="house-mtl" src="https://cdn.rawgit.com/Beando/HalloweenVR/master/House/medieval-house-2.mtl"></a-asset-item>
       <a-asset-item id="house" src="https://cdn.rawgit.com/Beando/HalloweenVR/master/House/medieval-house-2.obj"></a-asset-item>
     </a-assets>
     <a-plane width="100" height="100" rotation="-90 0 0" src="#Grass"></a-plane>
     <a-sky src="#Sky"></a-sky>
     <a-sphere position="0 0 0" radius="0.5" sound="src: #Ghost; autoplay: true; loop: true"></a-sphere>
+    <a-entity obj-model="obj: #tree; mtl: #tree-mtl" position="0 0 20"></a-entity>
     <a-entity obj-model="obj: #house; mtl: #house-mtl"></a-entity>
     <a-entity position="0 0 30.5">
       <a-camera></a-camera>
