@@ -3,8 +3,8 @@ illum 4
 Kd 0.00 0.00 0.00
 Ka 0.00 0.00 0.00
 Tf 1.00 1.00 1.00
-map_Kd pumpkin.psd
-bump Pumpkin_N.psd -bm 1
+map_Kd Pumpkin_D.jpg
+bump Pumpkin_N.jpg -bm 1
 Ni 1.00
 Ks 0.00 0.00 0.00
-map_Ks Pumpkin_spec.psd
+map_Ks Pumpkin_S.jpg
